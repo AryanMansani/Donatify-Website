@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Bootsrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- Style Sheets -->
+    <link rel="stylesheet" href="Style/button.css">
+  <script src="https://kit.fontawesome.com/6f2c45f4d2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Style/style2.css">
+  <link href="paymentform.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <meta charset="utf-8">
+  <title>Donatify</title>
+</head>
+
+<body>
+  <!-- Heading -->
+  <div class="container">
+    <div class="col">
+      <div class="card">
+        <div class="inner-box">
+          <div class="card-front front-1">
+
+          </div>
+
+          <div class="card-back">
+            <p>YOUR OLD BOOKS WILL GET A LIFE TO GIVE A LIFE
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="inner-box">
+          <div class="card-front front-2">
+
+          </div>
+
+          <div class="card-back">
+            <p>REUSING BOOKS WILL REDUCE CARBON FOOTPRINT
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="inner-box">
+          <div class="card-front front-3">
+
+          </div>
+
+          <div class="card-back">
+            <p>WILL DEVELOP A CULTURE OF READ AND SHARE
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="col-lg-8">
+      <h1 class="display-6 heading">Feed a child, Teach a child, Empower a child</h1>
+    </div>
+    <div class="col-lg-2 login">
+      <button type="button" class="btn btn-dark" onclick="window.location.href='login.html';">Login/Sign Up</button>
+    </div>
+  </div>
+
+
+  <div class="container-fluid starter head-div">
+    <div class="row">
+
+      <div class="col-lg-6">
+
+
+        <div class="wrapper">
+          <h2>
+            Donation Form</h2>
+          <form>
+            <h4>
+              Account</h4>
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text" placeholder="Full Name" name="Name" required class="name">
+                <i class="fa fa-user icon"></i>
+
+
+              </div>
+
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text" placeholder="Contact No" name="number" required class="name">
+                <i class="fas fa-phone icon"></i>
+
+              </div>
+
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text" placeholder="Quantity of Books" name="quantity" required class="name">
+                <i class="fa fa-envelope icon"></i>
+              </div>
+
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <h4>
+                  Date of Birth</h4>
+                <input type="text" placeholder="DD" name="dobd" class="dob">
+                <input type="text" placeholder="MM" name="dobm" class="dob">
+                <input type="text" placeholder="YYYY" name="doby" class="dob">
+              </div>
+              <div class="input-box">
+                <h4>
+                  Gender</h4>
+                <input type="radio" id="b1" name="gender" checked class="radio">
+                <label for="b1">Male</label>
+                <input type="radio" id="b2" name="gender" class="radio">
+                <label for="b2">Female</label>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <h4>
+                  Address Details</h4>
+
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text" placeholder="House/Flat No" name="houseno" required class="name">
+                <i class="fa fa-credit-card icon"></i>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text" placeholder="Street" name="street" required class="name">
+                <i class="fa fa-user icon"></i>
+              </div>
+
+            </div>
+            <div class="input-box">
+              <input type="tel" placeholder="Pin Code"  name="pin" required class="name">
+              <i class="fa fa-user icon"></i>
+            </div>
+
+
+
+
+
+
+          </form>
+          <button class="form" id="btnChangeBg">Submit</button>
+<script>
+document.querySelector('#btnChangeBg').addEventListener('click', () => {
+Confirm.open({
+title: 'Information Saved',
+message: 'Thank You! for your support. We will contact you soon.',
+onok: () => {
+  parent.location=('index.html');
+  //document.body.style.backgroundColor = 'blue';
+}
+})
+});
+</script>
+<script src="Style/button.js"></script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="footer">
+
+      <div class="follow">
+          <a href="https://www.facebook.com/TheAkshayaPatraFoundation/" class="fab fa-facebook-f"></a>
+          <a href="https://twitter.com/akshayapatra" class="fab fa-twitter"></a>
+          <a href="https://www.instagram.com/theakshayapatrafoundation/" class="fab fa-instagram"></a>
+          <a href="https://in.linkedin.com/company/the-akshaya-patra-foundation" class="fab fa-linkedin"></a>
+      </div>
+
+      <div class="credit">created for <span>The Akshay Patra Foundation</span></div>
+
+  </section>
+
+</body>
+
+</html>

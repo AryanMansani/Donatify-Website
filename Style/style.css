@@ -1,0 +1,142 @@
+
+.dp{
+  float:right;
+  height: 32rem;
+
+}
+.body-div{
+  margin-top: 50px;
+
+}
+.heading{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.service-img{
+  height: 12rem;
+
+}
+.login{
+  margin-top: 20px;
+  margin-left: 250px;
+}
+body {
+
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.ships{
+  margin-top: 4rem;
+  padding: 0px 240px 0px 150px;
+  align-items: center;
+}
+ .btn-bok{
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 100px;
+ }
+.ship-text{
+  margin-top: 35px;
+  color: black;
+  font-weight: bold;
+}
+.book-head{
+  text-align: center;
+  opacity: 100%;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.cards{
+  margin-top: 4rem;
+  padding: 0px 100px 0px 100px;
+  align-items: center;
+}
+.tail-div{
+ margin-top: 100px;
+ background-image: url('https://lh3.googleusercontent.com/proxy/Mash0wdhzajY6yL2ZwENw2F6DEH90mYeQousGTWJkDMiyNZebKwtTssUicbais8XBGP6wiXkXmPXGUuVz7JD_5wGnRNilMorw02qyOQrGvRnXvy2JQK5wwSzc0R5-Tk-M-81gv8kOTI6PlsemT7cNqMa0NNFxgRY7zL4VF3jDlF9RuYBfBdkXczXuo4ZoBtw7xsZR8AZE5F4aFh8JtVMJkyDIVcmwemCNKxcFSIAzZIk_HWI7XAXq6wv35UXpkZMteJQIP4sr83gJg');
+
+
+}
+.card-text{
+  margin-top: 35px;
+  color:#3c2323;
+  font-weight: bold;
+
+}
+.head-div{
+  padding-left: 0px;
+  margin-top: 20px;
+  background-color: #20603C;
+  border-style: solid;
+
+}
+.nambox1{
+  padding-right: 40px;
+  padding-top: 50px;
+}
+hr{
+  margin-top: 40px;
+  border-style: none;
+ border-top-style: solid;
+ border-color: grey;
+ border-width: 2px;
+ width: 5%;
+}
+.desc{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+  font-weight: bold;
+
+}
+.desc2{
+  margin-left: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.head-img{
+  padding-right: 0px;
+
+}
+.container-Donate{
+  background-color: #20603C;
+  height: 640px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .credit{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color:var(--black);
+    padding: 1rem 0;
+}
+
+.footer .credit span{
+    color:var(--orange);
+}
+
+.footer .follow{
+    padding: 1rem 0;
+}
+
+.footer .follow a{
+    height:4.5rem;
+    line-height:4.5rem;
+    width:4.5rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    background:var(--black);
+    color:black;
+    margin:0 .1rem;
+    text-align: center;
+}
+
+.footer .follow a:hover{
+    background:var(--orange);
+}
